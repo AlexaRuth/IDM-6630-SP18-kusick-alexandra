@@ -5,13 +5,12 @@
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <link rel="stylesheet" href="../css/normalize.css">
     <link rel="stylesheet" href="../css/style.css">
-    <title>WK1 - Assignment Page</title>
+    <title>WK2 - CHECK IN 2.2 </title>
   </head>
   <body>
      <?php echo "<h1> Cora Rose Fox </h1>"; ?>
-     
-    <nav><?php include "inc/nav.php" ?></nav>
-    <img src="../img/cora.jpg" alt="cora the dog">
+      
+    <img src="../img/bedtime.png" alt="cora the dog">
       
     <h2>Quick Facts</h2>
  
