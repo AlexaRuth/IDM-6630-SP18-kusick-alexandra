@@ -19,65 +19,87 @@
     // STORED KEYED ARRAY 
       
     $movie1 = array(
-        'title' => 'Jodorowskys/Dune',
+        'title' => 'Jodorowskys Dune',
         'imdbURL' => 'http://www.imdb.com/title/tt1935156/',
         'year' => 2014,
-        'rottenTomatoesScore' => 98,
+        'score' => 98,
         'genre' => 'Documentry',
         'posterURL' => '/img/dune.png'
         );
 
-    $movie1 = array(
+    $movie2 = array(
         'title' => 'Legend',
         'imdbURL' => 'http://www.imdb.com/title/tt0089469/?ref_=nv_sr_6',
         'year' => 1985,
-        'rottenTomatoesScore' => 42,
+        'score' => 42,
         'genre' => 'Sci-Fi',
         'posterURL' => '/img/legend.png'
         );
 
-    $movie1 = array(
-        'title' => 'Big/Trouble/In/Little/China',
+    $movie3 = array(
+        'title' => 'Big Trouble In Little China',
         'imdbURL' => 'http://www.imdb.com/title/tt0090728/?ref_=nv_sr_1',
         'year' => 1986,
-        'rottenTomatoesScore' => 82,
+        'score' => 82,
         'genre' => 'Comedy Adventure, Sci-Fi',
         'posterURL' => '/img/big.png'
         ); 
       
-    $movie1 = array(
+    $movie4 = array(
         'title' => 'Arrival',
-        'imdbURL' => ' http://www.imdb.com/title/tt2543164/',
+        'imdbURL' => 'http://www.imdb.com/title/tt2543164/',
         'year' => 2016,
-        'rottenTomatoesScore' => 94,
+        'score' => 94,
         'genre' => 'Mystery Sci-Fi',
         'posterURL' => '/img/arrival.png'
         );
 
-    $movie1 = array(
-        'title' => 'There/Will/Be/Blood',
-        'imdbURL' => ' http://www.imdb.com/title/tt0469494/?ref_=nv_sr_1',
+    $movie5 = array(
+        'title' => 'There Will Be Blood',
+        'imdbURL' => 'http://www.imdb.com/title/tt0469494/?ref_=nv_sr_1',
         'year' => 2008,
-        'rottenTomatoesScore' => 91,
+        'score' => 91,
         'genre' => 'Drama',
         'posterURL' => '/img/blood.jpg'
         );
       
-      
-      
+
+      $my_movielist = array();
+
+      array_push($my_movielist, $movie1, $movie2, $movie3, $movie4, $movie5);   
       
 
-//THE FUNCTION - BASED ON FEEDBACK TO NICK...      
-    //function cora_Facts($arrayToList) {
-    //   echo "<ul>";
+      function create_movie_lists() {
+          foreach($my_movielist as $current_movie) {
+              make_one_movie_list($current_movie);
+          }
+      }
 
-    //  foreach ($arrayToList as $value) {
-    //      echo "<li>$value</li>"; 
-    //  }
 
-    //   echo "</ul>";
-    // }
-    // cora_Facts($aboutCora)
+      function make_one_movie_list($movie_to_list) {
+          echo "<ul>";
+          echo "<li><h3>$movie_to_list[title]</h3></li>";
+          echo "<li><a href=" . $movie_to_list[imdbURL] .">IMDB</a></li>";
+          echo "<li>$movie_to_list[year]</li>";
+          echo "<li>$movie_to_list[score]</li>";
+          echo "<li>$movie_to_list[genre]</li>";
+          echo "<li><img src=" . $movie_to_list[posterURL] . "></li>";
+          echo "</ul";
+  // OF COURSE, your echo output should have mark up!
+}
+      
+
+                            //THE FUNCTION - BASED ON FEEDBACK TO NICK...      
+                            //function cora_Facts($arrayToList) {
+                            //   echo "<ul>";
+
+                            //  foreach ($arrayToList as $value) {
+                            //      echo "<li>$value</li>"; 
+                            //  }
+
+                            //   echo "</ul>";
+                            // }
+                            // cora_Facts($aboutCora)
 
     ?>
      
