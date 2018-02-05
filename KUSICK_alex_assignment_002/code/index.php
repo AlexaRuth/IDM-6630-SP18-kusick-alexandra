@@ -10,8 +10,29 @@
   <body>
      <?php echo "<h1>YOUR DAILY NEWS!</h1>"; ?>
      <nav><?php include "inc/nav.php" ?></nav>
+       
       
-     <img src="../img/news.jpg" alt="news boy">
+    <?php
+            
+         
+if (isset($_GET['section']) && isset($_GET['article'])) {
+    // GET THE SECTION
+} else if (isset($_GET['section'])) {
+    // GET THE SECTION
+} else if (isset($_GET['article'])) {
+    //GET THE ARTICLE
+} else {
+    //GET YOUR HOME PAGE
+}         
+     ?>
+      
+    
+      
+      
       
   </body>
 </html>
+
+
+
+
