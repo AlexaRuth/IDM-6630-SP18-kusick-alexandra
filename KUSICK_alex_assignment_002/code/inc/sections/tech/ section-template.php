@@ -8,7 +8,7 @@
     <title>WK3 - ASSIGNMENT 3 </title>
   </head>
   <body>
-    <?php echo "<h1>TECHNOLOGY IN THE USA</h1>"; ?>
+    <?php echo "<h1>TECHNOLOGY NEWS</h1>"; ?>
       
      <nav><?php include "../../../inc/nav.php" ?></nav>
        
@@ -20,24 +20,24 @@
 
     //STORED KEYED ARRAYS FOR ARTICLES
         $article1 = array(
-            'title' => "Why Schools Fail To Teach Slavery’s ‘Hard History'",
-            'img' => '../../../img/eduslavery.jpg',
-            'linkTo' => 'https://www.npr.org/sections/ed/2018/02/04/582468315/why-schools-fail-to-teach-slaverys-hard-history',
-            'previewText' => "<p>What do you think nearly half the students today believe is the reason the south succeeded the nation? Click to read more</p>",
+            'title' => "<h3>Automation Could Displace 800 Million Workers Worldwide By 2030, Study Says</h3>",
+            'img' => '../../../img/automation.jpg',
+            'linkTo' => 'https://www.npr.org/sections/alltechconsidered/2017/11/30/567408644/automation-could-displace-800-million-workers-worldwide-by-2030-study-says',
+            'previewText' => "<p>In the year 2030 in countries with advanced economies, a greater proportion of workers will need to learn new skills than in developing economies, researchers say. As many as a third of workers in the U.S. and Germany could need to learn new skills. For Japan, the number is almost 50 percent of the workforce, while in China it's 12 percent.</p>",
             );
 
         $article2 = array(
-            'title' => 'Outcry After Louisiana Teacher Arrested During School Board Meeting',
-            'img' => '../../../img/arrest.jpg',
-            'linkTo' => 'https://www.npr.org/sections/thetwo-way/2018/01/10/577010534/outcry-after-louisiana-teacher-arrested-during-school-board-meeting',
-            'previewText' => "<p>The dramatic arrest on Monday — which was caught on video — has drawn outrage in the U.S. and beyond.</p>",
+            'title' => '<h3>Their Doodles Entertain, But Google Hopes They Spark Important Conversations, Too</h3>',
+            'img' => '../../../img/googledraw.jpg',
+            'linkTo' => 'https://www.npr.org/sections/alltechconsidered/2017/11/26/565718493/their-doodles-entertain-but-google-hopes-they-spark-important-conversations-too',
+            'previewText' => "<p>Google has been sharing its beloved Google doodles with millions of people around the world since 2000. The idea for doodles came in 1998 after Google founders Larry Page and Sergey Brin added a stick figure man to the search engine's logo. It was meant as a comical message to Google users that the founders were 'out of office.' And by out of office, they meant they were at the Burning Man festival.</p>",
             );
 
         $article3 = array(
-            'title' => 'From DACA to DeVos: Education Predictions For 2018',
-            'img' => '../../../img/devos.jpg',
-            'linkTo' => 'https://www.npr.org/sections/ed/2018/01/02/569161619/from-daca-to-devos-education-predictions-for-2018',
-            'previewText' => "<p>I've always found this a fun thought exercise, and, at some point, my editor suggested I jot down my answers and share them beyond our cubicles. And so, here are a few predictions for 2018.</p>",
+            'title' => '<h3>SUCH CRYPTOCURRENCY. SO AMAZE</h3>',
+            'img' => '../../../img/dogecoin.jpg',
+            'linkTo' => 'https://www.npr.org/sections/money/2018/01/11/577435049/such-cryptocurrency-so-amaze',
+            'previewText' => "<p>Jackson sent off a random tweet about Dogecoin — just a throwaway joke. But one thing led to another, and Dogecoin became a real thing. Jackson tried to keep Dogecoin light and fun — it was for learning about cryptocurrency, and giving money to charity.</p>",
             ); 
 
        
