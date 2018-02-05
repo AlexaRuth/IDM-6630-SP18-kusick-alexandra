@@ -55,7 +55,7 @@
       //DEFINES THE MY_MOVIELIST NOTE ITEMS IN THE SQUARE BRAKETS MUST MATCH THE ARRAY NAMES, LOL OOPS!!
           function  make_one_article_list($my_articlelist) {
             echo "<ul>";
-              echo "<li><a href='" . $my_articlelist[linkTo] . "'> <h3>$my_articlelist[title]</h3 </a></li>";
+              echo "<li><a href='" . $my_articlelist[linkTo] . "'> <h2>$my_articlelist[title]</h2> </a></li>";
               echo "<li><img src='" . $my_articlelist[img] . "' alt='" . $my_articlelist[title] . " Poster'></li>";
               echo "<li>$my_articlelist[previewText]</li>"; 
             echo "</ul";

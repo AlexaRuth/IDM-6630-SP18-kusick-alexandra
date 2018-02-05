@@ -12,6 +12,23 @@
       
     <nav><?php include "inc/nav.php" ?></nav>
        
+        
+      
+      
+    <section class="sections"> 
+    <?php echo "<h2>Education</h2>"; ?>
+        <img src="../img/education.jpg" alt="image for education">  
+      
+        
+     <?php echo "<h2>Technology</h2>"; ?>
+      <img src="../img/tech.jpg" alt="image for tech">  
+     
+        
+    <?php echo "<h2>Health</h2>"; ?>
+      <img src="../img/health.jpg" alt="image for health">  
+    </section> 
+      
+      
       
     <?php
     
