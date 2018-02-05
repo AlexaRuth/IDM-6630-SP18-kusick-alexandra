@@ -1,0 +1,27 @@
+Content Requirements
+To test your ability to effectively use query stings to load content dynamically, your sites content should adhere to the following requirements:
+
+Every page of the site should have the same header information, and the header should contain a navigation list that has a link to the home page and each section. The best way to do this will probably be to use include() to load a file that contains the header and navigation markup, though you don't necessarily have to do it that way.
+
+In addition to the links in the header navigation, the home page should have links to the different sections as it's main content.
+
+Each section page should then link to 3 different articles.
+
+Each article should contain an image, a title and at least one paragraph of written content. You may use placeholder lore ipsum content for the writing if you'd like to.
+
+You may use any sections names you'd like.
+
+----------------------------------------------------
+
+Development Requirements
+You should develop your site with the following requirements in place:
+
+You may use include() or require() to load in content, but your site should only use one index.php file. This means that if you want users to visit a sports section, the URL they use should be something like localhost:8080?section=sports, NOT localhost:8080/sports.php
+
+You must use an inc or includes folder, and section subfolders to organize your files. I'll leave it to you to decide how best to use those those folders and subfolders, but your files must be organized, not just al dumped into the root folder.
+
+You must have a plan in place to handle what happens if a user tries to visit a section that doesn't exist, or an article that doesn't exist. 
+
+This doesn't necessarily have to be a 404 page, but you should be testing if the various $_GET items are set, and what to do if they are not or point to incorrect/nonexistent files.
+
+You need to use CSS to make the site readable, but you will not be graded on your design. Just use enough CSS to make the site human readable.

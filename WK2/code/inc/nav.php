@@ -3,9 +3,9 @@
     <a href="/">Home</a>
   </li>
   <li>
-    <a href="/articles">Articles</a>
+    <a href="/about">About</a>
   </li>
   <li>
-   <a href="/contact">Articles2</a>
+   <a href="/contact">Contact</a>
   </li>
 </ul>
