@@ -10,7 +10,7 @@
   <body>
     <?php echo "<h1>EDUCATION IN THE USA</h1>"; ?>
       
-     <nav><?php include "../../inc/nav.php" ?></nav>
+     <nav><?php include "../../../inc/nav.php" ?></nav>
        
     <h2>Todays Top Three</h2>
       

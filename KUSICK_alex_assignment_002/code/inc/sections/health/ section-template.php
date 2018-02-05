@@ -3,14 +3,14 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <link rel="stylesheet" href="../css/normalize.css">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../../../css/normalize.css">
+    <link rel="stylesheet" href="../../../css/style.css">
     <title>WK3 - ASSIGNMENT 3 </title>
   </head>
   <body>
     <?php echo "<h1>EDUCATION IN THE USA</h1>"; ?>
       
-     <nav><?php include "../inc/nav.php" ?></nav>
+     <nav><?php include "../../../inc/nav.php" ?></nav>
        
     <h2>Todays Top Three</h2>
       
