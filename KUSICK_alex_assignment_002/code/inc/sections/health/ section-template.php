@@ -20,27 +20,36 @@
 
     //STORED KEYED ARRAYS FOR ARTICLES
         $article1 = array(
-            'title' => "Why Schools Fail To Teach Slavery’s ‘Hard History'",
-            'img' => '../img/eduslavery.jpg',
-            'linkTo' => 'https://www.npr.org/sections/ed/2018/02/04/582468315/why-schools-fail-to-teach-slaverys-hard-history',
-            'previewText' => "<p>What do you think nearly half the students today believe is the reason the south succeeded the nation? Click to read more</p>",
-            );
+            'title' => "Former Drug Industry Executive Will lead dept. of health and human services",
+
+            'img' => '../../../img/drugexec.jpg',
+
+            'linkTo' => 'https://www.npr.org/sections/health-shots/2018/01/24/580381981/former-drug-industry-executive-will-lead-dept-of-health-and-human-services',
+
+            'previewText' => "<p>A former pharmaceutical industry official who says drug prices are too high will now be in charge of buying more medications than anyone in the world.</p>",
+        );
 
         $article2 = array(
-            'title' => 'Outcry After Louisiana Teacher Arrested During School Board Meeting',
-            'img' => '../img/arrest.jpg',
-            'linkTo' => 'https://www.npr.org/sections/thetwo-way/2018/01/10/577010534/outcry-after-louisiana-teacher-arrested-during-school-board-meeting',
-            'previewText' => "<p>The dramatic arrest on Monday — which was caught on video — has drawn outrage in the U.S. and beyond.</p>",
-            );
+            'title' => 'Unnecessary Medical Care: More common than you might Imagine',
+
+            'img' => '../../../img/medicalcare.jpg',
+
+            'linkTo' => 'https://www.npr.org/sections/health-shots/2018/02/01/582216198/unnecessary-medical-care-more-common-than-you-might-imagine',
+
+            'previewText' => "<p>What the group found should cause both doctors, and their patients, to rethink that next referral. In a single year:</p>",
+        );
 
         $article3 = array(
             'title' => 'From DACA to DeVos: Education Predictions For 2018',
-            'img' => '../img/devos.jpg',
-            'linkTo' => 'https://www.npr.org/sections/ed/2018/01/02/569161619/from-daca-to-devos-education-predictions-for-2018',
-            'previewText' => "<p>I've always found this a fun thought exercise, and, at some point, my editor suggested I jot down my answers and share them beyond our cubicles. And so, here are a few predictions for 2018.</p>",
-            ); 
 
-       
+            'img' => '../../../img/newcompany.jpg',
+
+            'linkTo' => 'https://www.npr.org/sections/thetwo-way/2018/01/30/581804474/amazon-berkshire-hathaway-and-jpmorgan-chase-launch-new-healthcare-company',
+
+            'previewText' => "<p>The new company will be free from profit-making incentives and constraints as it tries to find ways to cut costs and boost satisfaction with the health care plan for employees of Amazon, Berkshire Hathaway and JPMorgan Chase.</p>",
+        ); 
+
+
       //ORGANIZES THE ABOVE ARRAYS INTO A LIST 
           $my_articlelist = array();
 
